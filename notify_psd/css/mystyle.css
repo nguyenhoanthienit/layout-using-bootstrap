@@ -1,0 +1,146 @@
+
+*{
+	font-family:  Helvetica;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.container{
+	width: 60%;
+} 
+
+
+.container > div {
+	margin-bottom: 30px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
+/*Header*/
+#header {
+	color: white;
+	position: relative;
+}
+#header > div{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#header div.noi_dung{
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+
+#header img{
+	width: 100%;
+	height: 100%;
+}
+
+#header h1{
+	font-family: Pacifico;
+	font-size: 50px;
+}
+#header .noi_dung{
+	font-size: 30px;
+}
+#header .noi_dung a{
+	background-color: #37241a;
+	border-radius: 50%;
+	float: left;
+	padding: 10px;
+	margin-right: 15px;
+}
+
+
+#header .noi_dung a:hover{
+	background-color: #2ecc71;
+}
+
+/*advertisement*/
+#advertisement{
+	padding-top: 20px;
+}
+#advertisement div img{
+	width: 30%;
+}
+#advertisement div h3{
+	font-family: Raleway;
+}
+.animate{
+	animation: spin 2s linear infinite;
+	animation-play-state: paused;
+}
+@keyframes spin{
+	100% {transform: rotate(1turn);}
+}
+.animate:hover{
+	animation-play-state: running;
+}
+
+/*subscribe + video*/
+#subscribe > div{
+	padding: 30px 50px 30px 50px;
+}
+
+#subscribe #video iframe{
+	border-radius: 10px;
+} 
+
+/*contact*/
+#contact{
+	margin-top: 20px;
+}
+/*avatar images*/
+#ava_images .avatar > img {
+  width: 31px;
+  height: 31px;    
+  position: relative;
+  z-index: -1;
+}
+#ava_images .avatar:hover{    
+    background: rgba(84, 255, 129, 0.5);
+    width: 31px;      
+}
+#ava_images .avatar {
+	float: left;
+	margin-right: 5px;
+}
+/*social images*/
+#social a{
+	text-decoration: none;
+}
+
+#social a{
+	display: inline-block;
+	margin-right: 5px;
+}
+#social .os_images{
+	background-color: #d4d4d4;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	padding: 4px;
+}
+#social .os_images:hover{
+	background-color: #62d995;
+}
+
+/*Footer*/
+#footer div{
+	padding: 30px;
+}
+#footer div a{
+	display: inline-block;
+	margin-right: 20px;
+	color: #95998c;
+	text-decoration: none;
+}
+
+#footer div a:hover{
+	font-weight: bold;
+	color: #00cc99;
+}
